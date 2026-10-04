@@ -1,0 +1,12 @@
+{
+  "release": {
+    "product_id": "FeixiaLedi.IdentityVTreasureAssistant",
+    "version": "1.0.11",
+    "url": "https://github.com/LD-592114824/identityv-map-assistant/releases/download/v1.0.11/IdentityVTreasureAssistant-1.0.11-Setup.exe",
+    "size": 954428358,
+    "sha256": "8f1210668971399f995e5c90d83a2c9b8aff17d5b7c18e8a9dfd3d9865f3693b",
+    "published_at": "2026-10-04T17:12:54.757857+00:00",
+    "announcement": "第五人格摸金助手 1.0.11\n\n首次开放官网下载与软件内联网更新。\n\n• 启动后后台检查新版；发现更新时，在软件内显示公告并下载、安装，无需登录 GitHub 或打开浏览器。\n• 更新公告采用 Ed25519 签名，安装包核验 SHA256。支持下载断点续传与自动重试。\n• 包含已确认的主窗口、设置窗口及 HUD 界面。\n• Scale 管理按困难 / 噩梦筛选布局，改为选择客户端分辨率，自动换算内部 ROI。\n• 布局底图支持楼层切换、当前楼层提示与放大查看。\n• 保留个人设置、Scale 标定和样本，包含噩梦 23 号三个楼层的现有 Scale 更新。\n\n适用于 Windows 10 1809 及以上、Windows 11 的 x64 电脑。已包含运行环境，无需另装 Python。\n旧离线安装包需要先安装本版；之后可在软件中更新。联网检查失败不影响离线识别与定位。\n"
+  },
+  "signature": "YenlHu05TedknVPMGhEiANnj9JFwgsXtfmahKai2Ynma6HclkAaiwzyhxALx1mXow6sUSCo+n99WxP/1cyU7Aw=="
+}
