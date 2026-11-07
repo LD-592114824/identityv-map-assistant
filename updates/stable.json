@@ -1,12 +1,12 @@
 {
   "release": {
     "product_id": "FeixiaLedi.IdentityVTreasureAssistant",
-    "version": "1.0.13",
-    "url": "https://github.com/LD-592114824/identityv-map-assistant/releases/download/v1.0.13/IdentityVTreasureAssistant-1.0.13-Setup.exe",
-    "size": 996790435,
-    "sha256": "30103a446e5b391a984feeaa11de3643dc1c1ba3bf4ec7bc0869f6b8b28151f6",
-    "published_at": "2026-10-30T16:48:56.723328+00:00",
-    "announcement": "第五人格摸金助手 1.0.13\n\n【新增地图】\n新增噩梦 27、28 号地图，支持负一楼、一楼、二楼的识别与定位；更新地图识别模型。27 号已加入易混淆地图组，可在确认阶段手动选择。\n\n【路线更新】\n接入 27、28 号的凉哈皮、展十速刷、展十全棺三套重建路线，支持路线版本切换、玩家位置显示和路线叠加。\n\n【定位响应优化】\n连续定位时优先搜索上次位置附近，置信度不足时自动回退全图匹配。减少截图、预处理、匹配和路线渲染中的重复计算。用户版关闭自动保存 ROI、调试图片和逐帧过程、计时归档，减少额外写盘。\n\n【图标更新】\n使用原地图图案制作透明桌面图标，保留原有简约设计和纸张褶皱；地图线条与卷边线条均采用透明设计，仅做原像素抠图、放大与轻微锐化。\n\n【升级保留】\n保留个人设置和有效标定。旧 27 号布局的标定先备份再迁移，避免沿用到新布局。手动样本采集功能继续保留。\n"
+    "version": "2.0.0",
+    "url": "https://github.com/LD-592114824/identityv-map-assistant/releases/download/v2.0.0/IdentityVTreasureAssistant-2.0.0-Setup.exe",
+    "size": 1394947452,
+    "sha256": "e687a7bc1521da37d1ca3384daa7ecacbb222c42683a142d2fe74136b6a42f0b",
+    "published_at": "2026-11-07T14:09:19.305197+00:00",
+    "announcement": "2.0.0 大版本更新：磷光症正式加入\n\n新增“磷光症”困难与噩梦模式，与“厄运之女”自由切换。磷光症现有困难 14 张、噩梦 15 张四层地图，困难 06 暂缺，当前提供干净底图。\n\n磷光症使用 G 联合识别与定位：默认从游戏地图关闭状态开始，自动打开地图，新的一局首次按 G 会自动缩小地图。搜索时显示穆修拉之核进度条；完成后预览最高分候选。入口相似或候选同分时不会自动锁定，请继续探索或手动选图，再按 Enter 锁定。按 Z 开始新的一局。\n\n小抄支持锁定地图、手动选图与新的一局。虚像完成对齐后更新玩家色标，小抄保留色标并移除匹配框；按游戏地图键可关闭前台虚像。\n\n适配 11 月 5 日更新后的竖向楼层页签，覆盖两个模式的困难与噩梦。修正磷光症干净底图灰色大厅缺失和入口附近搜索边界造成的贴合偏移。\n\n优化识别响应和模板缓存。正式用户包不自动保存开发用 ROI、掩膜、候选匹配图等样本，也不执行对应后台落盘任务。\n\n更新模式图标和设置界面，移除面向用户的 Scale 标定页面。厄运之女保留原有识别、定位及路线选择功能。升级保留个人设置；快捷键以软件设置为准。\n"
   },
-  "signature": "MaEU8hhMdf4Taq/AM85JakDRNWv2nWg50WvycY0FG4EC44jJsDHfojVV0WO1pcw1SS3e8McbD4ApUfATbyM+DQ=="
+  "signature": "W9tKQr8kQWzUH6ypcB4JG+WL8crP/Hri+Mm/X2A6GNBiAntPIcbQQ9+XsKNB/8iT3lugFKgIY6aE0wgDOI6aDg=="
 }
