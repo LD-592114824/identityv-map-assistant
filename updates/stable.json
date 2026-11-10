@@ -1,12 +1,12 @@
 {
   "release": {
     "product_id": "FeixiaLedi.IdentityVTreasureAssistant",
-    "version": "2.1.1",
-    "url": "https://github.com/LD-592114824/identityv-map-assistant/releases/download/v2.1.1/IdentityVTreasureAssistant-2.1.1-Setup.exe",
-    "size": 1801336943,
-    "sha256": "8b3f6f1f5cd107f142ef5bd36d2f0ff6da1c23241d4362c7f91f5ae5aa076aed",
-    "published_at": "2026-11-09T14:53:39.524919+00:00",
-    "announcement": "2.1.1｜楼层识别与定位响应优化\n\n【楼层识别】\n更新厄运之女困难、噩梦楼层页签识别：优先检查上次位置，页签上下移动后自动重新搜索所在列，并同步排除页签区域，减少对地图定位的干扰。\n补充 16:10 画幅下的页签位置适配。\n\n【定位与虚像】\n优化磷光症已锁定地图的同楼层连续定位，复用上一帧的位置信息辅助匹配。\n优化截图预处理，减少虚像路线图重复绘制；匹配完成后及时通知界面显示。\n玩家色标仍在虚像完成对齐后识别；色标刷新时不再重复生成虚像。\n\n【用户版】\n预置磷光症模板缓存，关闭自动 ROI、掩膜、候选图和计时诊断样本保存；个人设置、自定义路线及导入草稿正常保留。\n磷光症 Scale 仍为 1.490。未锁定地图时继续采用入口锚点附近 ±48 像素搜索，不做全图兜底；入口相似或候选同分时仍由玩家手动锁定。\n\n本次保留 2.1.0 的路线工坊、凉哈皮与展十路线选择等功能。困难 06 模板及困难展十 09、14 号作者路线仍暂缺。\n"
+    "version": "2.2.0",
+    "url": "https://github.com/LD-592114824/identityv-map-assistant/releases/download/v2.2.0/IdentityVTreasureAssistant-2.2.0-Setup.exe",
+    "size": 1801398590,
+    "sha256": "62da391b71a39bc1be2cc41cc1b12c26fe9be4b7316050626706e451beb4e0e8",
+    "published_at": "2026-11-10T07:09:43.972258+00:00",
+    "announcement": "2.2.0｜路线编辑与逐层补充\n\n【路线工坊】\n自定义路线现在可以逐层补充到同一地图组，不必一次导入全部楼层。遇到重复楼层时，可并排查看新旧路线，再选择保留或替换；默认保留已有内容。\n\n【编辑自己的路线】\n可从干净底图或现有路线副本开始绘制，支持画笔、折线、箭头、擦除、序号标记和文本。文本支持中英文、多行、字号、颜色与透明度；支持移动、撤销/重做、草稿恢复及预览保存。\n\n【小抄与热键】\n单图模式新增楼层切换按钮，默认 F6，可在“操作与热键”中修改。浏览其它楼层不会更改实际定位楼层，下一次定位成功后回到当前楼层。多图模式不显示此按钮。\n修改快捷键后，相关按钮、操作提示及恢复页面的热键文字同步更新。\n\n【升级与资源】\n升级保留个人设置、自定义路线和草稿；自定义路线未覆盖的楼层继续使用当前内置版本。帮助与声明保持原样。\n用户版继续关闭自动 ROI、掩膜、候选匹配图和计时记录等开发样本保存，保留必要的运行与故障日志。\n磷光症困难 06 底图、困难展十 09/14 路线仍暂缺。\n"
   },
-  "signature": "MfAAXnPzi/QNiBLDVEkIYZtrIxa7V/+iJpx3YXl8hx8akJw3cjiSQeentNkKKyf0GbSYOxrWCikZt0WJ8tmVDQ=="
+  "signature": "9cAEQWJwhl7MU4Cd0VCLALs7gSfaf0GcyvarL50wmzp+znZcyQ05HZgJaj8fJhXoIbFOnqAU4+8M5jZsd6nkDA=="
 }
